@@ -1,0 +1,9 @@
+{
+	"name": "nycpayroll-ws",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ac81c699-e409-4ae8-a966-4a9a2d7b4663",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}

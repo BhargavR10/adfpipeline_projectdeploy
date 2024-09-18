@@ -1,0 +1,26 @@
+{
+	"name": "sqldb_nycpayrolltitlemd_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sql_db_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "TitleCode",
+				"type": "varchar"
+			},
+			{
+				"name": "TitleDescription",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "NYC_Payroll_TITLE_MD"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
