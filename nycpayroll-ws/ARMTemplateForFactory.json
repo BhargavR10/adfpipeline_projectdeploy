@@ -1534,6 +1534,7 @@
 						"     postCommands: [],",
 						"     skipDuplicateMapInputs: true,",
 						"     skipDuplicateMapOutputs: true,",
+						"     quoteAll: true,",
 						"     partitionBy('hash', 1)) ~> sink1"
 					]
 				}
