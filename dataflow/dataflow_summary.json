@@ -135,7 +135,6 @@
 				"     )) ~> sinktosumarysqldb",
 				"totalpaidsum sink(allowSchemaDrift: true,",
 				"     validateSchema: false,",
-				"     filePattern:'summarynycpayrollfile',",
 				"     truncate: true,",
 				"     umask: 0022,",
 				"     preCommands: [],",
