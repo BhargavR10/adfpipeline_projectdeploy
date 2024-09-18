@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "nycpayroll-ws"
+		},
+		"datalake_ls_accountKey": {
+			"value": ""
+		},
+		"sql_db_ls_connectionString": {
+			"value": ""
+		},
+		"synapse_ls_password": {
+			"value": ""
+		},
+		"datalake_ls_properties_typeProperties_url": {
+			"value": "https://projectudacitysa.dfs.core.windows.net/"
+		},
+		"synapse_ls_properties_typeProperties_server": {
+			"value": "pipelinesynapseproject-ondemand.sql.azuresynapse.net"
+		},
+		"synapse_ls_properties_typeProperties_database": {
+			"value": "udacity"
+		},
+		"synapse_ls_properties_typeProperties_userName": {
+			"value": "sqladminuser"
+		}
+	}
+}
